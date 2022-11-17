@@ -1,4 +1,1 @@
-mkdocs-include-markdown-plugin
-mkdocs-material
-mkdocs-material-extensions
-mkdocs-redirects
+mkdocs-include-markdown-plugin mkdocs-material mkdocs-material-extensions mkdocs-redirects
