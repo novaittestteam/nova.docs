@@ -1,0 +1,210 @@
+# Project information
+site_name: NovaIT Products Documentation
+site_url: https://novaittestteam.github.io/nova.docs/
+site_description: NovaIT documentation about products
+site_author: NovaIT
+
+#Repository
+# repo_url: делает линки на каждой странице
+# remote_branch: gh-pages (ветка, куда будет комитить с помощью gh-deploy GitHub Pages)
+# remote_name: origin (куда будет пушить с помощью gh-deploy)
+
+#Navigation block
+nav:
+    - Markup Legend: components/markup.md
+    - Features:
+        - Nova.ChatsConnector:
+            - Nova.BotConnector:
+                - Features: components/botconnectornotices.md
+                - Channel Capabilities: components/novabotconnectorchannels.md
+                - Channels:
+                    - Telegram: components/botconnector/telegramconnector.md
+                    - Viber: components/botconnector/viberconnector.md
+                    - Facebook Messenger: components/botconnector/fbconnector.md
+                    - Twitter: components/botconnector/twitterconnector.md
+                    - Line: components/botconnector/lineconnector.md
+                    - Slack: components/botconnector/slackconnector.md
+                    - WhatsApp: components/botconnector/whatsappconnector.md
+                    - Nexmo (WhatsApp): components/botconnector/nexmoconnector.md
+                    - Kik: components/botconnector/kikconnector.md
+                    - Vkontakte: components/botconnector/vkconnector.md
+                    - Odnoklassniki: components/botconnector/okconnector.md
+                    - WebChat: components/botconnector/webchatconnector.md
+                    - NovaChats: components/botconnector/novachatsconnector.md
+                    - Infobip (WhatsApp): components/botconnector/infobipconnector.md
+                    - Twilio: components/botconnector/twilioconnector.md
+                    - Facebook Wallposts: components/botconnector/fbwpconnector.md
+                    - Twitter Wallposts: components/botconnector/twitterwpconnector.md
+                    - Vkontakte Wallposts: components/botconnector/vkwpconnector.md
+                    - Odnoklassniki Wallposts: components/botconnector/okwpconnector.md
+            - Nova.BotFlow:
+                - Features: components/botflownotices.md
+                - Channel Capabilities: components/novabotflowchannels.md
+                - Channels:
+                    - Telegram: components/botflow/telegramflow.md
+                    - Viber: components/botflow/viberflow.md
+                    - Facebook Messenger: components/botflow/fbflow.md
+                    - Twitter: components/botflow/twitterflow.md
+                    - Line: components/botflow/lineflow.md
+                    - Slack: components/botflow/slackflow.md
+                    - Apple Business Chat: components/botflow/abcflow.md
+                    - WhatsApp: components/botflow/whatsappflow.md
+                    - WhatsApp BC: components/botflow/whatsappBCflow.md
+                    - WhatsApp WEB: components/botflow/whatsappWEBflow.md
+                    - Nexmo (WhatsApp): components/botflow/nexmoflow.md
+                    - Smooch (WhatsApp): components/botflow/smoochflow.md
+                    - Kik: components/botflow/kikflow.md
+                    - Vkontakte: components/botflow/vkflow.md
+                    - Odnoklassniki: components/botflow/okflow.md
+                    - Infobip (WhatsApp): components/botflow/infobipflow.md
+                    - Facebook Wallposts: components/botflow/fbwpflow.md
+                    - Twitter Wallposts: components/botflow/twitterwpflow.md
+                    - Vkontakte Wallposts: components/botflow/vkwpflow.md
+                    - Odnoklassniki Wallposts: components/botflow/okwpflow.md
+            - Nova.ChatProxy:
+                - Features: components/chatproxyfeatures.md
+                - Cisco:
+                    - ECE: components/novachatproxyciscoecenotices.md
+                    - UCCX: components/novachatproxyciscouccxnotices.md
+                - Genesys:
+                    - PureCloud: components/novachatproxygenesyspurecloudnotices.md
+                    - PureConnect.ICWS: components/novachatproxygenesyspureconnecticwsnotices.md
+                    - PureEngage.GMS.ChatAPIv2: components/novachatproxygenesyspureengagegmschatapiv2notices.md
+                - NovaIT.Chat24: components/novachatproxynovaitchat24notices.md
+            - Nova.ChatRouter:
+                - Dialogflow: components/novachatrouterdialogflownotices.md
+                - Omilia: components/novachatrouteromilianotices.md
+            - Nova.WebChat: components/novawebchatnotices.md
+            - Nova.Talks: components/novatalksnotices.md
+    - Release Notes:
+        - Nova.ChatsConnector:
+            - Nova.BotConnector: components/novabotconnector.md
+            - Nova.BotFlow: components/novabotflow.md
+            - Nova.ChatProxy:
+                - Nova.ChatProxy: components/novachatproxy.md
+                - Cisco:
+                    - ECE: components/novachatproxyciscoece.md
+                    - UCCX: components/novachatproxyciscouccx.md
+                - Genesys:
+                    - PureCloud: components/novachatproxygenesyspurecloud.md
+                    - PureConnect.ICWS: components/novachatproxygenesyspureconnecticws.md
+                    - PureEngage.GMS.ChatAPIv2: components/novachatproxygenesyspureengagegmschatapiv2.md
+                - NovaIT.Chat24: components/novachatproxynovaitchat24.md
+            - Nova.ChatRouter:
+                - Dialogflow: components/novachatrouterdialogflow.md
+                - Omilia: components/novachatrouteromilia.md
+            - Nova.WebChat: components/novawebchat.md
+            - Nova.Talks:
+                - Core: components/novatalkscore.md
+                - UI: components/novatalksui.md
+                - BotAgent: components/novatalksbotagent.md
+                - ChatWidget: components/novatalkswidget.md
+#                - Sys: components/novatalkssys.md
+                - Genesys.PureConnect:
+                    - Connector: components/novatalksgenesyspureconnectconnector.md
+                    - InteractionConnect: components/novatalksgenesyspureconnectinteractionconnect.md
+    - Documents:
+        - Table of content: components/documents/toc.md
+        - ChatsConnector: components/documents/chatsconnector/chatsconnectortoc.md
+        - BotConnector: components/documents/botconnector/botconnectortortoc.md
+        - BotFlow: components/documents/botflow/botflowtoc.md
+        - Nova.Talks:
+            - Flowcharts: components/documents/novatalks/novatalkstoc.md
+            - Checklists: components/documents/novatalks/novatalkstesting.md
+
+theme:
+  name: null
+  custom_dir: mkdocs-material/material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.top
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  logo: components/assets/icon.png
+  favicon: components/assets/favicon.png
+  icon:
+    logo: components/assets/icon.png
+
+#Markdown Extensions
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - admonition
+  - md_in_html
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - include-markdown
+  - search
+  - redirects:
+      redirect_maps:
+#example:   'path/old.md': 'path/new.md'
+        'index.md': 'markup.md'
+        'components/index.md': 'components/markup.md'
+        'components/botflow/index.md': 'components/botflow/telegramflow.md'
+        'components/botconnector/index.md': 'components/botconnector/telegramconnector.md'
+        'components/documents/index.md': 'components/documents/toc.md'
+        'components/documents/novatalks/index.md': 'components/documents/novatalks/novatalkstoc.md'
+        'components/documents/chatsconnector/index.md': 'components/documents/chatsconnector/chatsconnectortoc.md'
+        'components/documents/botflow/index.md': 'components/documents/botflow/botflowtoc.md'
+        'components/documents/botconnector/index.md': 'components/documents/botconnector/botconnectortortoc.md'
+
+#Homepage
+extra:
+  homepage: components/markup.html
+  generator: false
+
+#extra_javascript:
+#   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+#   - ./javascript/mermaid.min.js
+ 
+extra_css:
+   - ./css/extra.css
+   - ./css/sticky.css
+ 
+use_directory_urls: false

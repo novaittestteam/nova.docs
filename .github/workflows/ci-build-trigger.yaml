@@ -1,0 +1,22 @@
+name: CI Build Trigger
+on:
+  push:
+  pull_request:
+  pull_request_target:
+  pull_request_review:
+  pull_request_review_comment:
+
+
+jobs:
+  start:
+    name: Start
+    runs-on: self-hosted
+    environment: nova.ci
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+  ci-build-trigger-switcher:
+    name: CI Build Trigger Switcher
+    uses: novaittestteam/nova.ci/.github/workflows/ci-build-trigger-switcher.yaml@main
+    secrets: inherit
