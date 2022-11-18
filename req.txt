@@ -1,4 +1,4 @@
-Mardown
+Markdown
 materials
 mkdocs
 mkdocs-material
