@@ -1,4 +1,8 @@
+Markdown
+materials
+mkdocs
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-include-markdown-plugin
 mkdocs-redirects
+pymdown-extensions
